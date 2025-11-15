@@ -1,4 +1,3 @@
-import PropTypes from "prop-types"
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -27,8 +26,4 @@ export default function RootLayout({ children }) {
       </body>
     </html>
   );
-}
-
-RootLayout.propTypes={
-  children:PropTypes.node.isRequired
 }
