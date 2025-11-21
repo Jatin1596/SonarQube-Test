@@ -29,6 +29,6 @@ export default function RootLayout({ children }) {
   );
 }
 
-RootLayout.prototype={
+RootLayout.prototypes={
   children:PropTypes.node.isRequired,
 }
